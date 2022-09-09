@@ -10,7 +10,7 @@ void downloadInput(String day) {
   file.createSync(recursive: true);
   http.get(url, headers: {
     'Cookie': 'session=${env['SESSION']}',
-  }).then((value) => file.writeAsString(value.body));
+  }).then((value) => file.writeAsString(value.body.trim()));
 }
 
 void main(List<String> args) {
