@@ -1,4 +1,4 @@
 name: aoc2015
 environment:
   sdk: '>=2.10.0 <3.0.0'
-dependencies: {dotenv: ^4.0.1, http: ^0.13.5}
+dependencies: {dotenv: ^4.0.1, http: ^0.13.5, tuple: ^2.0.0}
